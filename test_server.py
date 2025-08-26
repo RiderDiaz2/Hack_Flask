@@ -18,6 +18,7 @@ def test_hack_1():
 
 
 
+
 def test_hack_2():
     client = app.test_client()
     with client:
@@ -82,6 +83,7 @@ def test_hack_6():
                                         'email': 'foo@foo.foo',
                                         'name': 'fooziman',
                                     }
+
 
 
 def test_hack_7():
